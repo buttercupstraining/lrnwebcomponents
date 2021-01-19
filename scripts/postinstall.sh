@@ -10,7 +10,7 @@ esac
 # where am i? move to where I am. This ensures source is properly sourced
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 cd $DIR
-cd ..
+cd ./
 rm -rf node_modules/@lrnwebcomponents
 mkdir node_modules/@lrnwebcomponents
 # go back a level so we can snag everything

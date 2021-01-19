@@ -40,6 +40,10 @@ $ yarn global add @wcfactory/cli
 $ yarn global add polymer-cli
 $ yarn global add lerna
 $ yarn global add web-component-analyzer
+$ yarn global add concurrently
+$ yarn global add gulp
+$ yarn global add es-dev-server
+$ yarn add array-each -W
 $ yarn install
 ```
 
