@@ -27,6 +27,8 @@ $ yarn install
 
 ### Windows Install
 
+**Important:** In order for Symlinks to be created correctly, you need to have Developer Mode enabled on your Windows machine. To do this, search for "Developer Settings" on your machine and set "Developer Mode" to "On". Read more about Windows Developer Mode [here](https://docs.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development). 
+
 To properly configure git endlines for Windows, run this configuration
 ```bash
 $ git config --global core.autocrlf true
@@ -35,7 +37,6 @@ $ git config --global core.autocrlf true
 ```bash
 $ git clone https://github.com/elmsln/lrnwebcomponents.git
 $ cd lrnwebcomponents
-$ yarn global add symlink-dir
 $ yarn global add @wcfactory/cli
 $ yarn global add polymer-cli
 $ yarn global add lerna
