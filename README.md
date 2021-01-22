@@ -43,7 +43,7 @@ $ yarn global add web-component-analyzer
 $ yarn global add concurrently
 $ yarn global add gulp
 $ yarn global add es-dev-server
-$ yarn add array-each -W
+$ yarn global add array-each
 $ yarn install
 ```
 
